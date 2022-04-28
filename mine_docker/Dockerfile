@@ -6,4 +6,4 @@ ENV ram={RAM_AMOUNT}
 
 WORKDIR /server
 
-CMD echo "Docker minecraft server is starting\n" && java -Xmx1G -jar server.jar
+CMD echo "Docker minecraft server is starting\n" && java -Xmx4G -jar server.jar
